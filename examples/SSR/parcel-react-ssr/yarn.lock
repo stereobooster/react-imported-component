@@ -3971,9 +3971,10 @@ react-hot-loader@^4.0.0:
     prop-types "^15.6.0"
     shallowequal "^1.0.2"
 
-react-imported-component@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/react-imported-component/-/react-imported-component-5.0.1.tgz#392e882571358fcf4d6cf0755b43e9944cc05b0e"
+react-imported-component@^5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/react-imported-component/-/react-imported-component-5.4.0.tgz#dafbcf3f31e5d1c75580764ffa23b5e9c819d8da"
+  integrity sha512-TadFrNvGEOO3cTZVxjJLHoRfqXCE7Gv3OBHn+uFnfo6ympL74Kf/BV46Ta+lPnoUgkL5mUCcZ09p5nciU01k4g==
   dependencies:
     crc-32 "^1.2.0"
     detect-node "^2.0.3"
