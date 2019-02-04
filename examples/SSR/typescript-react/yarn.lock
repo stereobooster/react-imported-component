@@ -4462,10 +4462,10 @@ react-helmet@^5.2.0:
     prop-types "^15.5.4"
     react-side-effect "^1.1.0"
 
-react-imported-component@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/react-imported-component/-/react-imported-component-5.0.1.tgz#392e882571358fcf4d6cf0755b43e9944cc05b0e"
-  integrity sha512-NQ9GuH8vHdh5KXzFMF2Eirlukcvi4GWNPgU1wYp2C4F7Xvysoha8ox5rGWqH9MGfIZlm4NxoJNyd162fKXYo/Q==
+react-imported-component@^5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/react-imported-component/-/react-imported-component-5.5.0.tgz#6980615cbdf74ba70daf4eba8c0da10fcfcbb0df"
+  integrity sha512-phQs3VeNjpSdO85iQbfWged5+pZ/sC1D+ybF4IQwRAGgeUjSbk1NkNbr2963gCDsqZnl+VQWFxx489HYE4IRHg==
   dependencies:
     crc-32 "^1.2.0"
     detect-node "^2.0.3"
