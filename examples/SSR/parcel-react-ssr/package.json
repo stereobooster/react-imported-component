@@ -25,7 +25,7 @@
     "cheerio": "^1.0.0-rc.2",
     "compression": "^1.7.2",
     "express": "^4.16.2",
-    "react": "^16.7.0",
+    "react": "^16.8.1",
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
     "react-imported-component": "^5.0.1",
