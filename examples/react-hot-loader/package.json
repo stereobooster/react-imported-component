@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "react": "^16.8.0",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.8.0",
     "react-hot-loader": "^4.3.11",
     "react-portal": "^4.1.2"
   }
