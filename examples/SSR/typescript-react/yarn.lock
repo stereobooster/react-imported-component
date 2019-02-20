@@ -30,11 +30,17 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.0.1.tgz#9095e8b9b10d1de6d49a939b2f65c2872a47afd9"
   integrity sha512-HKTs07TC1RJRBd9z0Kf/cy37j2HCbUfcVKS6Xm9orZVcLqZ1JXWe/JTDLw6AwxmLOxV45fDpOMPXyqXU3TfOPQ==
 
-"@types/react@^16.3.13":
-  version "16.3.13"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.3.13.tgz#47d466462b774556c1174ea0eda22c0578643362"
-  integrity sha512-YMFH/E9ryjUm2AoOy8KdTuG1SufaMuYmO/5xACROl0pm9dRmE2RN3d2zjv/eHALF6LGRZPVb7G9kqP0n5dWttQ==
+"@types/prop-types@*":
+  version "15.5.9"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.5.9.tgz#f2d14df87b0739041bc53a7d75e3d77d726a3ec0"
+  integrity sha512-Nha5b+jmBI271jdTMwrHiNXM+DvThjHOfyZtMX9kj/c/LUj2xiLHsG/1L3tJ8DjAoQN48cHwUwtqBotjyXaSdQ==
+
+"@types/react@^16.8.4":
+  version "16.8.4"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.4.tgz#134307f5266e866d5e7c25e47f31f9abd5b2ea34"
+  integrity sha512-Mpz1NNMJvrjf0GcDqiK8+YeOydXfD8Mgag3UtqQ5lXYTsMnOiHcKmO48LiSWMb1rSHB9MV/jlgyNzeAVxWMZRQ==
   dependencies:
+    "@types/prop-types" "*"
     csstype "^2.2.0"
 
 "@types/redux-devtools-extension@^2.13.2":
