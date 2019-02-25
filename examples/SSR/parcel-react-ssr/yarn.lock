@@ -598,7 +598,7 @@
     js-levenshtein "^1.1.3"
     semver "^5.3.0"
 
-"@babel/runtime@^7.0.0":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.3.1":
   version "7.3.1"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.3.1.tgz#574b03e8e8a9898eaf4a872a92ea20b7846f6f2a"
   integrity sha512-7jGW8ppV0ant637pIqAcFfQDDH1orEPGJb8aXfUozuCU3QqX7rX4DA8iwrbPrR1hcH0FTTHz47yQnk+bl5xHQA==
@@ -6490,11 +6490,12 @@ react-hot-loader@^4.0.0:
     prop-types "^15.6.0"
     shallowequal "^1.0.2"
 
-react-imported-component@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/react-imported-component/-/react-imported-component-5.0.1.tgz#392e882571358fcf4d6cf0755b43e9944cc05b0e"
-  integrity sha512-NQ9GuH8vHdh5KXzFMF2Eirlukcvi4GWNPgU1wYp2C4F7Xvysoha8ox5rGWqH9MGfIZlm4NxoJNyd162fKXYo/Q==
+react-imported-component@^5.5.3:
+  version "5.5.3"
+  resolved "https://registry.yarnpkg.com/react-imported-component/-/react-imported-component-5.5.3.tgz#e96605129afcba9afd30adc97aca770c1101f757"
+  integrity sha512-aLJRabz6aNUNAgLJp01RLHwcmarztPXFNYVRP+qwsxzLb/s1IX7v6j2nVhgRNacpscLuLnJVk9rStxNZcmRkNQ==
   dependencies:
+    "@babel/runtime" "^7.3.1"
     crc-32 "^1.2.0"
     detect-node "^2.0.3"
     prop-types "15.6.2"
