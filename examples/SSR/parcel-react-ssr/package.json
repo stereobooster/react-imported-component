@@ -27,7 +27,7 @@
     "express": "^4.16.2",
     "multistream": "^2.1.1",
     "parcel-plugin-bundle-manifest": "^0.2.0",
-    "react": "^16.7.0",
+    "react": "^16.8.6",
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
     "react-imported-component": "^5.0.1",
