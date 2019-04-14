@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "build-imported": "imported-components src src/imported-chunk.js",
-    "build": "rm -rf dist && npm run build-imported && npm run build-client",
+    "build": "rm -rf dist && yarn build-imported && yarn build-client",
     "build-client": "parcel build src/index.html -d dist/ --public-url ./ --no-minify --no-cache",
     "postbuild": "react-snap"
   },
@@ -16,10 +16,14 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-imported-component": "^5.5.3",
-    "react-snap": "^1.23.0"
+    "react-snap": "https://github.com/stereobooster/react-snap.git#346-add-parcel-support"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.4",
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/polyfill": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
     "parcel-bundler": "^1.12.2"
   },
   "reactSnap": {
